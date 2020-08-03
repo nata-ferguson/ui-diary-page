@@ -1,0 +1,55 @@
+body {
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    display: grid;
+    justify-content: center;
+}
+
+.title {
+    color: #0b7c92;
+    text-align: center;
+    margin-bottom:1em;
+}
+
+.entry-textbox {
+    background-color: bisque;
+    width: 30em;
+    height: 20em;
+    padding: 2em;
+    border: unset;
+    margin-bottom: 0.5em;
+    border-radius: 25px;
+    outline: none;
+}
+
+#entryForm .button {
+    border-radius: 15px;
+    border: unset;
+    padding: 10px 20px;
+    margin-left: 75%;
+}
+
+#entries {
+    background-color: #7fcbda;
+    color: #000000;
+    border-radius: 25px;
+    padding: 2em;
+    max-width: 20em;
+    border: unset;
+    margin-top: 1em;
+    font-family: cursive;
+}
+
+.entries-nav {
+    margin-bottom: 1em;
+}
+    
+.display-entry-button {
+    margin: 0.2em;
+}
+    
+.display-entry-button:hover {
+   cursor: pointer;
+}
+
